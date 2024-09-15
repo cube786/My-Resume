@@ -3,147 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Aneesh Abdul Rahman</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-        }
-        h1, h2, h3 {
-            text-align: center;
-            margin: 0;
-        }
-        h1 {
-            margin-bottom: 10px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            background: #f4f4f4;
-            padding: 10px;
-            margin: 0 -20px;
-        }
-        .section ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section ul li {
-            margin-bottom: 10px;
-        }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .skills, .languages {
-            display: flex;
-            justify-content: space-between;
-            padding-left: 20px;
-        }
-        .skills ul, .languages ul {
-            flex: 1;
-            margin: 0 30px;
-        }
-        .profile-pic {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #ddd;
-            margin-right: 20px;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aneesh Abdul Rahman - Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <img src="passport.jpg.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>ANEESH ABDUL RAHMAN</h1>
-        <div class="contact-info">
-            <p>Kanyakumari, India</p>
-            <p>+91 9150218273</p>
-            <p><a href="mailto:adamrah8@gmail.com">adamrah8@gmail.com</a></p>
-        </div>
+        <header>
+            <h1>Aneesh Abdul Rahman</h1>
+            <p>Full Stack Developer</p>
+            <div class="contact-info">
+                <span>+966503200538</span>
+                <span><a href="mailto:adamrah8@gmail.com">adamrah8@gmail.com</a></span>
+                <span><a href="http://www.linkedin.com/in/aneesh-a-2b67b1286" target="_blank">LinkedIn/Aneesh</a></span>
+                <span>Jubail, KSA</span>
+            </div>
+        </header>
 
-        <div class="section">
-            <h2>SUMMARY</h2>
-            <p>Intend to build a successful career in a highly motivated, innovative work environment with committed and dedicated people, which will help to explore myself fully and also utilize my maximum abilities for the development and growth of the company.</p>
-        </div>
+        <section class="experience">
+            <h2>Experience</h2>
+            <h3>Frontend Developer | Trouvailler Enterprises Private Limited</h3>
+            <p>April 2023 – May 2024 | India</p>
+            <ul>
+                <li>Developed and managed the website trouvailler.com, enhancing UI/UX design to boost user engagement by 30%.</li>
+                <li>Worked closely with the design team to implement responsive features, achieving complete mobile compatibility across all devices.</li>
+                <li>Used HTML, CSS, JavaScript, and jQuery to develop dynamic web pages, reducing page load times by 40%.</li>
+                <li>Implemented backend features using Node.js and Express.js, increasing data handling efficiency by 20%.</li>
+                <li>Consistently updated the website, leading to a 15% increase in client satisfaction.</li>
+            </ul>
 
-        <div class="section">
-            <h2>PROJECT WORK</h2>
+            <h3>Intern | Uniq Technologies</h3>
+            <p>Feb 2022 – April 2022 | India</p>
             <ul>
-                <li><strong>Early Detection of Alzheimer's Disease:</strong> The work of this project for early detection of Alzheimer's disease with blood plasma proteins using support vector machine. This project is used to detect Alzheimer's dementia disease and to enhance overall performance for classification algorithm.</li>
-                <li><strong>Morse Code Translator:</strong> Worked on how to use open CV for real-time Morse code communication</li>
-                
+                <li>Created a Smart Home Automation system using Arduino, reducing manual control by 50%.</li>
+                <li>Set up wireless communication using Bluetooth modules, achieving 99% reliability for operations controlled via a mobile app.</li>
+                <li>Collaborated on designing IoT solutions, reducing development time by 20%.</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>INTERNSHIP</h2>
-            <h3>UNIQ TECHNOLOGIES - Intern, Bangalore, India</h3>
+        <section class="projects">
+            <h2>Academic Projects</h2>
+            <h3>Early Detection of Alzheimer's Disease</h3>
             <ul>
-                <li>Worked on a Mini Project based on Internet Of Things Using Arduino</li>
+                <li>Developed a system for early Alzheimer's detection using machine learning algorithms and blood plasma protein data.</li>
+                <li>Technologies used: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook, SciPy.</li>
             </ul>
-        </div>
+            
+            <h3>Morse Code Translator</h3>
+            <ul>
+                <li>Designed an application that converts Morse code to English and vice versa using OpenCV and Tkinter.</li>
+            </ul>
+        </section>
 
-        <div class="section">
-            <h2>CERTIFICATIONS</h2>
-            <ul>
-                <li>Complete Python Bootcamp</li>
-                <li>Web development Bootcamp</li>
-                <li>AWS Cloud practitioner</li>
-            </ul>
-        </div>
+        <section class="education">
+            <h2>Education</h2>
+            <h3>Computer Engineering</h3>
+            <p>Hindusthan College of Engineering and Technology, Coimbatore | 2023 | CGPA: 8.34</p>
+        </section>
 
-        
+        <section class="skills">
+            <h2>Skills</h2>
+            <p><strong>Programming Languages:</strong> Python, JavaScript</p>
+            <p><strong>Web Development:</strong> HTML, CSS, JavaScript, Node.js, Express.js</p>
+            <p><strong>Databases:</strong> SQL</p>
+            <p><strong>Cloud Computing:</strong> AWS Cloud Practitioner</p>
+            <p><strong>Tools:</strong> Arduino IDE, Jupyter Notebook</p>
+        </section>
 
-        <div class="section">
-            <h2>EDUCATION</h2>
-            <ul>
-                <li><strong>2023 - HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY, Coimbatore, TN:</strong> Bachelor of Engineering: Computer Science Engineering, CGPA 8.5</li>
-                <li><strong>2017 - PONJESLY PUBLIC MATRIC HIGHER SECONDARY SCHOOL, Kanyakumari, TN:</strong> Higher Secondary Education: Majored in Computer and Mathematics with 83%</li>
-                <li><strong>2015 - VICTORY MATRICULATION HIGHER SECONDARY SCHOOL, Kanyakumari, TN:</strong> Senior Secondary Education: Graduated with 96%</li>
-            </ul>
-        </div>
-
-        <div class="section skills">
-            <h2>TECHNICAL SKILLS</h2>
-            <ul>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JQuery</li>
-            </ul>
-            <ul>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>SQL</li>
-            </ul>
-        </div>
-
-        <div class="section languages">
-            <h2>LANGUAGES</h2>
-            <ul>
-                <li>English: C2 (Proficient)</li>
-                <li>German: B1 (Intermediate)</li>
-            </ul>
-            <ul>
-                <li>Tamil: C2 (Proficient)</li>
-                <li>Malayalam: A2 (Elementary)</li>
-            </ul>
-        </div>
+        <section class="personal-details">
+            <h2>Personal Details</h2>
+            <p><strong>Father’s Name:</strong> Abdul Rahman</p>
+            <p><strong>Date of Birth:</strong> 13/09/1999</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Iqama Status:</strong> Transferable</p>
+            <p><strong>Languages Known:</strong> English, German, Malayalam, Hindi, Tamil</p>
+        </section>
     </div>
 </body>
 </html>
